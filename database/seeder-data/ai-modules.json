@@ -1,0 +1,188 @@
+[
+    {   
+        "id": 1,
+        "user_id": 1,
+        "grade_id": "2,4,5,7",
+        "course_id": 11,
+        "display_name": "chatgpt",
+        "status": 1,
+        "type": "chatgpt",
+        "thumbnail":"aimodule_thumbnail_20231115_WuBppNr9h2mNJncgZH74aE0jEk1hOSiCyO0y7d4r.png",
+        "content": 
+                    {
+                        "id": 1,
+                        "module_page_title": "Module 1 | ChatGPT",
+                        "module_page_overview": "In this module, we'll explore ChatGPT, a smart computer program that can chat with you, answer your questions, and even help with homework, just like a friendly robot that loves to learn and teach!",
+                        "video_url": "https://player.vimeo.com/video/817309428?h=24ea3ef3d8",
+                        "prompts": [
+                            {
+                                "id": 1,
+                                "prompts": "Suggest a fun itinerary if you have only 12 hours to explore Jaipur with family.",
+                                "response": "Start your day with a visit to the majestic Amber Fort, located just outside of Jaipur. Take a guided tour of the royal palace and experience the grandeur of the Rajput era. 2. Enjoy a delicious Rajasthani thali lunch at one of the local restaurants. 3. Visit the City Palace, a grand palace complex built by the Maharaja of Jaipur in the 18th century. 4. Take a tour of the Jantar Mantar, an astronomical observatory built by Maharaja Jai Singh II. 5. Visit the Hawa Mahal, or the Palace of Winds, a pink sandstone structure with intricate carvings and latticework. 6. Take a rickshaw ride through the bustling streets of Jaipur and explore the local markets. 7. Enjoy a traditional Rajasthani dinner at one of the local restaurants. 8. End your day with a visit to the Nahargarh Fort, located on a hilltop overlooking the city of Jaipur.",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                            "id": 2,
+                            "prompts": "Explain the rules of cricket to 8 year old.",
+                            "response": "Cricket is a fun game played between two teams of 11 players each. The game is played on a large field with a flat surface. The two teams take turns batting and fielding. When it''s a team''s turn to bat, they have two batsmen at the crease. The batsmen have to try and score as many runs as they can. The batsman does this by hitting the ball and running between the two wickets (three stumps with two bails on top). The batsman can score runs by running between the wickets or by hitting the ball to the boundary of the field. When it''s a team''s turn to field, they have to try and get the batsmen out. There are several ways to do this. The most common is to catch the ball after it has been hit by the batsman. The fielder can also get the batsman out by hitting the wickets with the ball. The team with the most runs at the end of the game wins. It''s a great game to play and watch.",
+                            "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 3,
+                                "prompts": "Top 3 amusement parks for children in India and what's special about them?",
+                                "response": "1. Adlabs Imagica: Adlabs Imagica is India's first international theme park located in Khopoli, Maharashtra. This amusement park offers a variety of thrilling rides, water parks, live entertainment, and shows. It also has a variety of dining and shopping options. 2. Essel World: Essel World is located in Mumbai and is one of the oldest and most popular amusement parks in India. It has over 35 rides, a variety of restaurants, and a water park. It also hosts live entertainment and shows. 3. Wonderla: Wonderla is located in Kochi, Kerala and is one of the most popular amusement parks in India. It features over 50 rides, a variety of water slides, and an array of dining and shopping options. It also has a virtual reality zone and a 5D theatre.",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 4,
+                                "prompts": "Write a short poem on 'why school is important'.",
+                                "response": "School is the place we learn and grow, The knowledge we gain will help us go, It teaches us the skills we need, To build a bright and successful future indeed.",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 5,
+                                "prompts": "How does solar eclipse happen? Explain to a 10 year old.",
+                                "response": "A solar eclipse happens when the moon passes between the sun and the Earth, blocking out the sunlight. The moon casts a shadow on the Earth and the sun appears to disappear. This only happens during a new moon, when the moon is directly between the Earth and the sun. For a 10 year old, you could explain it like this: Imagine the sun is a bright light bulb, and the moon is a piece of paper. When the moon moves between the sun and the Earth, it's like the paper is blocking the light from the bulb. That's why the sun looks like it's gone away!",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 6,
+                                "prompts": "Explain gravity in simple terms.",
+                                "response": "Gravity is a force of attraction between objects that is due to their mass. It is what makes objects fall to the ground when dropped and keeps planets in orbit around the sun.",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 7,
+                                "prompts": "Write a fairytale about a young girl Tina, who loves her dolls and gives them names of popular Disney characters, and how they come to life and join Tina for a grand feast and teach her 3 essential table manners.",
+                                "response": "Once upon a time, there was a young girl named Tina who adored her dolls. She would give them names of popular Disney characters, like Snow White, Cinderella, and Ariel. One night, Tina was getting ready for bed and was about to put away her dolls when they suddenly came to life! Tina was so shocked and delighted to see her beloved dolls talking and walking around. The dolls told Tina that they were here to teach her three essential table manners. They told her that the first was to always say “please” and “thank you” when asking for something. The second was to chew with her mouth closed. And the third was to never talk with food in her mouth. Tina was so excited to learn these important table manners that she invited her dolls to a grand feast. She prepared a delicious meal of her favorite foods and set the table with her best dishes. When the dolls arrived, they taught Tina the three essential table manners. She was so pleased with herself that she thanked them for teaching her. At the end of the feast, the dolls thanked Tina for the wonderful meal and said goodbye. As they left, they promised to come back soon to check on her manners. Tina was so happy that her dolls had come to life and taught her such important lessons. From then on, she always remembered to use her manners whenever she ate.",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 8,
+                                "prompts": "How to keep our rivers clean? Explain through a short story that kids would enjoy reading.",
+                                "response": "Once upon a time, there lived a little fish named Finny. Finny lived in a beautiful river that was full of life and color. Every day, Finny would swim around and explore the river, admiring the bright colors of the fish and plants. One day, Finny noticed something strange in the river. There were some strange things floating in the water that he had never seen before. Finny swam closer and saw that the objects were plastic bags, bottles, and other garbage. Finny was very sad to see the river so polluted. He decided that he had to do something to help. So, he asked his friends to join him in a mission to clean up the river. Finny and his friends worked together to collect the garbage from the river and put it in a big pile on the bank. They then asked the people who lived near the river to help them take the garbage away to be recycled. The people were so impressed with Finny and his friends that they started to take care of the river every day. They picked up garbage whenever they saw it, and they made sure to put it in the right places. Finny and his friends were very proud of what they had done. The river was now clean and full of life again. From then on, Finny and his friends made sure to keep the river clean and healthy. Moral of the story: Everyone can help keep our rivers clean by picking up garbage and putting it in the right places. We all need to do our part to protect our rivers and keep them clean and healthy for future generations.",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 9,
+                                "prompts": "Explain Jagdish Chandra Bose's contribution to science in simple words for 10 year old.",
+                                "response": "Jagdish Chandra Bose was an Indian scientist who made important contributions to the fields of physics, biology and botany. He was the first person to prove that plants have feelings and can respond to external stimuli, such as light, sound and heat. He also invented the first wireless radio in 1895, which was the first device that could send and receive messages without using wires. He also developed the crescograph, an instrument that could measure the growth of plants. His work showed that plants are living things that can feel, think and respond to their environment.",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 10,
+                                "prompts": "Give some tips on how ChatGPT can be used by 10 year old students in their day to day studies.",
+                                "response": "1. Encourage 10 year old students to use ChatGPT to practice their writing skills. Ask them to type out a short story, essay, or even a poem and have ChatGPT suggest words and phrases to help them complete their work. 2. Have 10 year old students use ChatGPT to practice their math skills. Ask them to type out a math problem and have ChatGPT suggest words and phrases to help them solve it. 3. Encourage 10 year old students to use ChatGPT to practice their reading comprehension skills. Ask them to type out a passage or story and have ChatGPT suggest words and phrases to help them understand the content better. 4. Have 10 year old students use ChatGPT to practice their problem-solving skills. Ask them to type out a problem and have ChatGPT suggest words and phrases to help them come up with a solution. 5. Encourage 10 year old students to use ChatGPT to practice their researching skills. Ask them to type out a topic and have ChatGPT suggest words and phrases to help them find relevant information.",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            }
+                        ],
+                        "activities": [
+                            {
+                                "id": 1,
+                                "activities_description": "I have exams coming up in a month and need to create a study schedule. I attend school in the mornings and have classes in the afternoon. How can I effectively allocate study time for my subjects during the weekdays and weekends?",
+                                "website_url": "https://chat.openai.com/",
+                                "prompt_screenshot": "aimodule_thumbnail_20231115_YhRJGRbx00j44UTYrWYdFtr15Z26XgBUC9Z45M9c.png"
+                            },
+                            {
+                                "id": 2,
+                                "activities_description": "I'm writing an essay on the impact of climate change on polar bear populations. Can you help me create an outline for my essay?",
+                                "website_url": "https://chat.openai.com/",
+                                "prompt_screenshot": "aimodule_thumbnail_20231115_YhRJGRbx00j44UTYrWYdFtr15Z26XgBUC9Z45M9c.png"
+                            },
+                            {
+                                "id": 3,
+                                "activities_description": "Can you generate ten multiple-choice questions about the American Revolution for my history practice test?",
+                                "website_url": "https://chat.openai.com/",
+                                "prompt_screenshot": "aimodule_thumbnail_20231115_YhRJGRbx00j44UTYrWYdFtr15Z26XgBUC9Z45M9c.png"
+                            },
+                            {
+                                "id": 4,
+                                "activities_description": "I'm stuck on my physics homework about projectile motion. Can you explain how to determine the range of a projectile at a given angle?",
+                                "website_url": "https://chat.openai.com/",
+                                "prompt_screenshot": "aimodule_thumbnail_20231115_YhRJGRbx00j44UTYrWYdFtr15Z26XgBUC9Z45M9c.png"
+                            }
+                            ]
+                    }
+                
+                
+    },
+    {
+        "id": 2,
+        "user_id": 1,
+        "display_name": "dalle",
+        "status": 1,
+        "course_id": 11,
+        "grade_id": "2,4,5,7",
+        "type": "dalle",
+        "thumbnail":"aimodule_thumbnail_20231115_NgHNYrpoToTpWsChyTRpiwbVLLDm0jmsbcxpHcft.png",
+        "content": 
+                    {
+                        "id": 1,
+                        "module_page_title": "Module 2 | Dalle",
+                        "module_page_overview": "We''ll explore Dalle in this module. SD is an open source AI model which can create images based on your input. ''Open Source'' means the code of the logic is open for everyone to see and access without any cost.",
+                        "video_url": "https://player.vimeo.com/video/840401930?h=d8bb9feafa",
+                        "prompts": [
+                            {
+                                "id": 1,
+                                "prompts": "A stylish Panda on skateboard wearing goggle with India gate in background",
+                                "response": "plan_20231107_cdIcmP1DrHV1f1TcMCZ7aVcswhWqrK9Pw3SBASHX.png",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                        
+                            },
+                            {
+                                "id": 2,
+                                "prompts": "A cute cat looking at herself in mirror near the beach on a sunny day",
+                                "response": "plan_20231107_cdIcmP1DrHV1f1TcMCZ7aVcswhWqrK9Pw3SBASHX.png",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 3,
+                                "prompts": "A potato wearing a trench coat in a heroic pose, 3d digital art",
+                                "response": "plan_20231107_NQ173C1EpyrLy3NwJUviOHdvey0JXQbBpuD37RG2.png",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 4,
+                                "prompts": "A group of 5 cute dogs playing poker",
+                                "response": "plan_20231107_NQ173C1EpyrLy3NwJUviOHdvey0JXQbBpuD37RG2.png",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            },
+                            {
+                                "id": 5,
+                                "prompts": "Create a digital painting that captures the journey of a seed turning into a towering tree, demonstrating the stages of germination, growth, and maturity to be used as an educational poster for a biology class.",
+                                "response": "plan_20231107_NQ173C1EpyrLy3NwJUviOHdvey0JXQbBpuD37RG2.png",
+                                "file": "prompt_20231115_Fun with ChatGPT.png"
+                            }
+         
+                        ],
+                        "activities": [
+                            {
+                                "id": 1,
+                                "activities_description": "Create an infographic that explains the water cycle for a middle school science class.",
+                                "website_url": "https://chat.openai.com/",
+                                "prompt_screenshot": "aimodule_thumbnail_20231115_YhRJGRbx00j44UTYrWYdFtr15Z26XgBUC9Z45M9c.png"
+                            },
+                            {
+                                "id": 2,
+                                "activities_description": "Generate an illustration of the balcony scene from Romeo and Juliet to support my literature class assignment.",
+                                "website_url": "https://chat.openai.com/",
+                                "prompt_screenshot": "aimodule_thumbnail_20231115_YhRJGRbx00j44UTYrWYdFtr15Z26XgBUC9Z45M9c.png"
+                            },
+                            {
+                                "id": 3,
+                                "activities_description": "Design a poster showing the different parts of a cell and their functions for my biology notebook.",
+                                "website_url": "https://chat.openai.com/",
+                                "prompt_screenshot": "aimodule_thumbnail_20231115_YhRJGRbx00j44UTYrWYdFtr15Z26XgBUC9Z45M9c.png"
+                            },
+                            {
+                                "id": 4,
+                                "activities_description": "Produce a set of images that depict the Pythagorean theorem in various real-life applications to aid my study for a math test.",
+                                "website_url": "https://chat.openai.com/",
+                                "prompt_screenshot": "aimodule_thumbnail_20231115_YhRJGRbx00j44UTYrWYdFtr15Z26XgBUC9Z45M9c.png"
+                            }
+                            ]
+                    }
+                
+                
+    }
+]

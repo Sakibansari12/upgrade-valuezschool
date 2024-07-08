@@ -1,0 +1,270 @@
+body {
+    font-family: 'Arial', sans-serif; /* basic font-family for better aesthetics */
+    margin: 0;
+    padding: 1rem;
+    box-sizing: border-box;
+    height: 500px;
+ 
+}
+
+.spacer {
+    height: 50px;
+    background-color: #f4f4f4; /* just to give it some appearance */
+}
+
+.column {
+    /* background-color: burlywood; */
+    flex-direction: column;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  /* Added this line to center vertically */
+    /* gap: 20px; */
+    /* padding: 20px; */
+   height: 80vh;   /* Make it take full viewport height */
+}
+
+.column1main {
+    display: flex;
+    flex: 2.5;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  /* Added this line to center horizontally */
+    gap: 20px;
+    width: 100%;
+}
+
+
+
+
+.column1 {
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* space between child elements */
+    padding: 20px;
+    border: 1px solid #ccc; /* just to define the space */
+    border-radius: 10px;
+}
+
+
+
+.column2 {
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* space between child elements */
+    padding: 20px;
+    border: 1px solid #ccc; /* just to define the space */
+    border-radius: 10px;
+}
+
+
+.column2main {
+    display: flex;
+    flex: 2.5;
+    flex-direction: column;  /* Stack child elements vertically */
+    align-items: center;     /* Center child elements horizontally */
+    gap: 20px;               /* Space between child elements */
+    width: 100%;             /*Take full available width */
+}
+
+
+
+.question-button {
+    width:50px; /* full width */
+    padding: 15px 0; /* vertically centered text */
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* smooth transition effect */
+}
+
+.question-button:hover {
+    background-color: #031f3d;
+}
+
+.selected {
+    background-color: #0a7339; 
+}
+.question-button.answered::after {
+    content: "✔";
+    color: rgb(128, 0, 58);
+    /* position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%); */
+    font-size: 1.5rem;
+}
+
+
+
+.col2-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* space between child elements */
+}
+
+.col2-heading {
+    display: flex;
+    gap: 20px;
+    align-items: start;
+}
+
+.col2-sub1 {
+
+    /* flex-shrink: 0; prevent shrinking */
+}
+
+
+
+.col2-sub2 {
+    flex: 3;
+    /* flex-grow: 1; */
+}
+
+.content {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.questions {
+    display: flex;
+    flex-direction: column; /* stacking questions */
+    gap: 10px; /* space between questions */
+}
+.questions-container {
+    display: flex; 
+    align-items: center;  /* vertically align items in the center */
+    gap: 20px;  /* spacing between button and question */
+}
+
+.question-container {
+    display: flex;  
+    flex-direction: column;  /* to stack the h3 and .col2body vertically */
+    flex-grow: 1; 
+    margin-top: 1rem; /* allow the question to grow and take up the remaining horizontal space */
+}
+
+.question-container h3 {
+    flex-grow: 1; /* take up remaining horizontal space */
+    margin: 0; /* remove default margin */
+}
+
+.col2body {
+    padding-top: 1rem;
+    width: 100%; /* take up full width, forcing it to a new line */
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn1 {
+    /* padding: 15px; adjust as necessary */
+    background-color: transparent;
+    border: none;
+    border-radius: 50%; /* to make it circular */
+    font-size: 3.5rem; /* adjust the size of the emoji */
+    cursor: pointer;
+    transition: transform 0.3s ease; /* optional: to provide a feedback on hover */
+}
+
+.btn1:hover {
+    transform: scale(1.1); /* optional: slightly enlarge the emoji button on hover */
+}
+
+.btn1:focus {
+    outline: none; /* removes the default focus outline */
+}
+
+.btn1.selected2 {
+    background-color: blue;
+}
+
+
+.col-footer {
+    display: flex;
+    gap: 250px;
+}
+
+.firstcol, .secondcol {
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+    /* gap: 10px; */
+}
+
+.prev, .next, .submit {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.prev:hover, .next:hover, .submit:hover {
+    background-color: #0056b3;
+}
+
+.prev[disabled], .prev[disabled]:hover {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.submitcol {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) and (orientation: portrait) {
+    body {
+        padding: 0.5rem;
+    }
+    .column, .column1main, .column2main {
+        flex-direction: column;
+    }
+    h3, .question-button {
+        font-size: 1.2rem;
+    }
+    /* ... add any other specific mobile styles here ... */
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    body {
+        padding: 0.75rem;
+    }
+    h3, .question-button {
+        font-size: 1.1rem;
+    }
+    /* ... add any other specific tablet styles here ... */
+}
+
+.my-textarea {
+    width: 300px;
+    height: 100px;
+    resize: none;
+}

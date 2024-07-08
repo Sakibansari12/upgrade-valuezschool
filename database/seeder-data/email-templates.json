@@ -1,0 +1,50 @@
+[
+    {
+        "template": "School",
+        "module": "school",
+        "category": "school",
+        "group": "school",
+        "subject": "School Payment {{SCHOOL_NAME}}",
+        "description": "Email templates when a school is sent to a customer",
+        "admin_body": "<p><strong>Click on the link below: {{SCHOOL_PAYMENT_ID}}</strong></p>",
+        "school_body": "<p><strong>Dear {{SCHOOL_NAME}},</strong></p>\r\n<p><strong>Thank you for your purchase of {{NUMBER_OF_SUBSCRIPTION}} of paid annual classroom subscriptions of the 21st Century LMS.</strong></p>\r\n<p><strong>The academic year classroom subscription of our 'Near Future Technologies + NEP Values education package for 21st Century school' gives you access to following:</strong></p>\r\n<p><strong>- Near Future Tech modules in easy, fun way (50+ modules for Grades 4 to 10)</strong></p>\r\n<p><strong>- Future Ready Bulletins (56 bulletins & more every 2 weeks for Grades 4 to 10)</strong></p>\r\n<p><strong>- NEP Values modules (50+ modules mapped grade-wise for Grades Nursery to 5)</strong></p>\r\n<p><strong>- Artificial Intelligence modules (Grade 5 and above)</strong></p>\r\n<p><strong>Easy teacher guidance is available with each module and modules are designed to seamlessly blend into your school curriculum.</strong></p>\r\n<p><strong>Please pay using the button below:  <strong>{{SIGNATURE_LINK}}</strong></a>.</strong></p>\r\n<p><strong>or</strong></p>\r\n<p><strong>Click on the link below:  <strong>{{SIGNATURE_LINK}}</strong></a>.</strong></p>\r\n<p><strong>Contact your school admin or write to Support@valuezschool.com for any further assistance.</strong></p>\r\n<p><strong>Your partner in the 21st century learner journey.</strong></p>\r\n<p><strong>Valuez School</strong></p>\r\n<p><strong>Test School billings</strong></p>",
+        "student_body": "<p>Dear &nbsp;{{COMPANY_NAME}}<br>Greetings from {{COMPANY_NAME}}<br>This email is to confirm your service request for {{VISIT_TITLE}} on {{APPOINTMENT_DATE}} {{APPOINTMENT_TIME}} has been generated for the following address &nbsp;{{CUSTOMER_PROPERTY}}.</p><p><br>If you have any questions and want to reschedule for any reason, then respond to this email. We appreciate and value your business {{CUSTOMER_COMPANY}},<br>Thank you for choosing us!<br>Have a great day!<br>Regards<br>{{COMPANY_NAME}}<br>&nbsp;</p>",
+        "sequence": "1"
+    },
+    {
+        "template": "Support",
+        "module": "support",
+        "category": "support",
+        "group": "support",
+        "subject": "support {{SCHOOL_NAME}}",
+        "description": "Email templates when a school is sent to a customer",
+        "admin_body": "<p><strong>Dear {{COMPANY_NAME}},</strong></p>\r\n<p><strong>Thank you for the meeting. With the information you provided we've been able to create a detailed brief of your job and how best we can help you achieve your goals.</strong></p>\r\n<p><strong>The plan is attached for your consideration, along with a quote for the final fee.</strong></p>\r\n<p><strong>I'm aware the quoted amount (S${{QUOTATION_TOTAL}}) is above our original estimate. At the time of the estimate, we didn't have all the details for your project. This quote is of full project fee and the final price &ndash; you won't get a nasty surprise when the bill comes!</strong></p>\r\n<p><strong>Here is the link for approval, Please <a href=\"{{SIGNATURE_LINK}}\" target=\"_blank\">click here</a>.</strong></p>\r\n<p><strong>We appreciate your feedback on the brief, and if there are any amendments to be made, please let us know. We look forward to working with you!</strong></p>\r\n<p><strong>Yours Sincerely</strong></p>\r\n<p><strong>{{COMPANY_NAME}}</strong></p>",
+        "school_body": "<p><strong>Valuez School Support</strong></p>\r\n<p><strong>{{SCHOOL_NAME}}</strong></p>\r\n<p><strong>{{TEACHER_NAME}}</strong></p>\r\n<p><strong>{{TEACHER_EMAIL}}</strong></p>\r\n<p><strong>{{TEACHER_PHONE}}</strong></p>\r\n<p><strong>{{TEACHER_DESCRIPTION}}</strong></p>\r\n",
+        "student_body": "<p>Dear &nbsp;{{COMPANY_NAME}}<br>Greetings from {{COMPANY_NAME}}<br>This email is to confirm your service request for {{VISIT_TITLE}} on {{APPOINTMENT_DATE}} {{APPOINTMENT_TIME}} has been generated for the following address &nbsp;{{CUSTOMER_PROPERTY}}.</p><p><br>If you have any questions and want to reschedule for any reason, then respond to this email. We appreciate and value your business {{CUSTOMER_COMPANY}},<br>Thank you for choosing us!<br>Have a great day!<br>Regards<br>{{COMPANY_NAME}}<br>&nbsp;</p>",
+        "sequence": "2"
+    },
+    {
+        "template": "Feedback",
+        "module": "feedback",
+        "category": "feedback",
+        "group": "feedback",
+        "subject": "feedback {{SCHOOL_NAME}}",
+        "description": "Email templates when a school is sent to a customer",
+        "admin_body": "<p><strong>Dear {{COMPANY_NAME}},</strong></p>\r\n<p><strong>Thank you for the meeting. With the information you provided we've been able to create a detailed brief of your job and how best we can help you achieve your goals.</strong></p>\r\n<p><strong>The plan is attached for your consideration, along with a quote for the final fee.</strong></p>\r\n<p><strong>I'm aware the quoted amount (S${{QUOTATION_TOTAL}}) is above our original estimate. At the time of the estimate, we didn't have all the details for your project. This quote is of full project fee and the final price &ndash; you won't get a nasty surprise when the bill comes!</strong></p>\r\n<p><strong>Here is the link for approval, Please <a href=\"{{SIGNATURE_LINK}}\" target=\"_blank\">click here</a>.</strong></p>\r\n<p><strong>We appreciate your feedback on the brief, and if there are any amendments to be made, please let us know. We look forward to working with you!</strong></p>\r\n<p><strong>Yours Sincerely</strong></p>\r\n<p><strong>{{COMPANY_NAME}}</strong></p>",
+        "school_body": "<p><strong>Valuez School Support</strong></p>\r\n<p><strong>{{SCHOOL_NAME}}</strong></p>\r\n<p><strong>{{TEACHER_NAME}}</strong></p>\r\n<p><strong>{{TEACHER_DESCRIPTION}}</strong></p>\r\n",
+        "student_body": "<p>Dear &nbsp;{{COMPANY_NAME}}<br>Greetings from {{COMPANY_NAME}}<br>This email is to confirm your service request for {{VISIT_TITLE}} on {{APPOINTMENT_DATE}} {{APPOINTMENT_TIME}} has been generated for the following address &nbsp;{{CUSTOMER_PROPERTY}}.</p><p><br>If you have any questions and want to reschedule for any reason, then respond to this email. We appreciate and value your business {{CUSTOMER_COMPANY}},<br>Thank you for choosing us!<br>Have a great day!<br>Regards<br>{{COMPANY_NAME}}<br>&nbsp;</p>",
+        "sequence": "3"
+    },
+    {
+        "template": "srequest",
+        "module": "srequest",
+        "category": "srequest",
+        "group": "srequest",
+        "subject": "School Payment {{SCHOOL_NAME}}",
+        "description": "Email templates when a school is sent to a customer",
+        "admin_body": "<p><strong>Click on the link below: {{SCHOOL_PAYMENT_ID}}</strong></p>",
+        "school_body": "<p><strong>Dear {{SCHOOL_NAME}},</strong></p>\r\n<p><strong>Thank you for your purchase of {{NUMBER_OF_SUBSCRIPTION}} of paid annual classroom subscriptions of the 21st Century LMS.</strong></p>\r\n<p><strong>The academic year classroom subscription of our 'Near Future Technologies + NEP Values education package for 21st Century school' gives you access to following:</strong></p>\r\n<p><strong>- Near Future Tech modules in easy, fun way (50+ modules for Grades 4 to 10)</strong></p>\r\n<p><strong>- Future Ready Bulletins (56 bulletins & more every 2 weeks for Grades 4 to 10)</strong></p>\r\n<p><strong>- NEP Values modules (50+ modules mapped grade-wise for Grades Nursery to 5)</strong></p>\r\n<p><strong>- Artificial Intelligence modules (Grade 5 and above)</strong></p>\r\n<p><strong>Easy teacher guidance is available with each module and modules are designed to seamlessly blend into your school curriculum.</strong></p>\r\n<p><strong>Please pay using the button below:  <strong>{{SIGNATURE_LINK}}</strong></a>.</strong></p>\r\n<p><strong>or</strong></p>\r\n<p><strong>Click on the link below:  <strong>{{SIGNATURE_LINK}}</strong></a>.</strong></p>\r\n<p><strong>Contact your school admin or write to Support@valuezschool.com for any further assistance.</strong></p>\r\n<p><strong>Your partner in the 21st century learner journey.</strong></p>\r\n<p><strong>Valuez School</strong></p>\r\n<p><strong>Test School billings</strong></p>",
+        "student_body": "<p>Dear &nbsp;{{COMPANY_NAME}}<br>Greetings from {{COMPANY_NAME}}<br>This email is to confirm your service request for {{VISIT_TITLE}} on {{APPOINTMENT_DATE}} {{APPOINTMENT_TIME}} has been generated for the following address &nbsp;{{CUSTOMER_PROPERTY}}.</p><p><br>If you have any questions and want to reschedule for any reason, then respond to this email. We appreciate and value your business {{CUSTOMER_COMPANY}},<br>Thank you for choosing us!<br>Have a great day!<br>Regards<br>{{COMPANY_NAME}}<br>&nbsp;</p>",
+        "sequence": "4"
+    }
+]
